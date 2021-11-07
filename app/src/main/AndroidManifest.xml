@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HandleAPI">
-        <activity android:name=".SplashScreenActivity" android:exported="true">
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HandleAPI.noActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
